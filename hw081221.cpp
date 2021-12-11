@@ -18,9 +18,9 @@ fill_rand3(mas, n);
 print_matrix(mas, n,n);
 sr_geom(mas, n);
 //4
-fill_rand(mas, n, m);
-print_matrix(mas, n, m);
-col_pos(mas, n, m);
+fill_rand(int** mas, int n, int m);
+print_matrix(int** mas, int n, int m);
+col_pos(int** mas, int n, int m);
 
 	
 int main() {
