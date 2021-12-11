@@ -5,21 +5,16 @@
 #include "hw081221.h"
 using namespace std;
 
-//1
 fill_randmas(int* mas, int n);
 print_mas(int* mas, int n);
 sum_nechot(int* mas, int n);
-//2
 fill_randmas2(int* mas, int n);
 print_mas(int* mas, int n);
 otr_pr(int* mas, int n);
-//3
-fill_rand3(mas, n);
-print_matrix(mas, n,n);
-sr_geom(mas, n);
-//4
-fill_rand(int** mas, int n, int m);
+fill_rand3(int** mas, int n);
 print_matrix(int** mas, int n, int m);
+sr_geom(int** mas, int n);
+fill_rand(int** mas, int n, int m);
 col_pos(int** mas, int n, int m);
 
 	
