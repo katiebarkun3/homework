@@ -6,13 +6,13 @@
 using namespace std;
 
 //1
-fill_randmas(mas1, n);
-print_mas(mas1, n);
-sum_nechot(mas1, n);
+fill_randmas(int* mas, int n);
+print_mas(int* mas, int n);
+sum_nechot(int* mas, int n);
 //2
-fill_randmas2(mas1, n);
-print_mas(mas1, n);
-otr_pr(mas1, n);
+fill_randmas2(int* mas, int n);
+print_mas(int* mas, int n);
+otr_pr(int* mas, int n);
 //3
 fill_rand3(mas, n);
 print_matrix(mas, n,n);
